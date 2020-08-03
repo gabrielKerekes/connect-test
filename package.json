@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "webpack-dev-server --entry ./app.js --output-filename ./dist/bundle.js"
+  },
+  "dependencies": {
+    "trezor-connect": "file:/home/gabriel/repos/cardano/connect/npm",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
