@@ -4,7 +4,7 @@
     "build": "webpack-dev-server --entry ./app.js --output-filename ./dist/bundle.js"
   },
   "dependencies": {
-    "trezor-connect": "file:[PATH_TO_LOCAL_CONNECT_NPM]",
+    "trezor-connect": "file:[PATH_TO_LOCAL_TREZOR_CONNECT_NPM_FOLDER]",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0"

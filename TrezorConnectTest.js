@@ -177,7 +177,9 @@ export const TrezorConnectTest = () => {
       networkId: 1,
     };
 
-    for (var i = 0; i < 25; i++) {
+    const NUMBER_OF_INPUTS = 25;
+
+    for (var i = 0; i < NUMBER_OF_INPUTS; i++) {
       tx.inputs.push(getInput(i));
     }
     console.log(tx);
