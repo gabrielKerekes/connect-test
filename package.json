@@ -1,10 +1,11 @@
 {
   "type": "module",
   "scripts": {
-    "build": "webpack-dev-server --entry ./app.js --output-filename ./dist/bundle.js"
+    "build": "webpack-dev-server --entry ./app.js --output-filename ./dist/bundle.js",
+    "wtf": "https://github.com/vacuumlabs/connect/releases/download/8.1.25-catalyst-rc.2-extended/trezor-connect-v8.1.28-catalyst-rc.2-extended.tgz"
   },
   "dependencies": {
-    "trezor-connect": "file:[PATH_TO_LOCAL_TREZOR_CONNECT_NPM_FOLDER]",
+    "trezor-connect": "file:/Users/gabriel/projects/vl/cardano/connect/npm",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0"

@@ -11,10 +11,17 @@ document.getElementById('sign-transaction-btn').onclick = async () => {
     '</p><p>Tx body: ' +
     response.payload.serializedTx +
     '</p>';
+  document.getElementById('resultJSON').innerHTML = JSON.stringify(response, null, 2)
 };
 
 document.getElementById('verify-address-btn').onclick = async () => {
   const response = await trezorConnectTest.verifyAddress();
   document.getElementById('result').innerHTML =
     '<p>Address: ' + response.payload.address;
+};
+
+document.getElementById('get-native-script-hash-btn').onclick = async () => {
+  const response = await trezorConnectTest.getNativeScriptHash();
+  document.getElementById('result').innerHTML =
+    '<p>Script hash: ' + response.payload.scriptHash;
 };
