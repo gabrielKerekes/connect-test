@@ -5,7 +5,7 @@
     "wtf": "https://github.com/vacuumlabs/connect/releases/download/8.1.25-catalyst-rc.2-extended/trezor-connect-v8.1.28-catalyst-rc.2-extended.tgz"
   },
   "dependencies": {
-    "trezor-connect": "file:/Users/gabriel/projects/vl/cardano/connect/npm",
+    "trezor-connect": "../connect/npm/",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0"
